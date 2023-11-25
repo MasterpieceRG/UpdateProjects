@@ -1,10 +1,10 @@
 fun main(args: Array<String>) {
-    var i:Int = 0
+    var i:Int = 9
     var sum = 0
-    while (i < 10) {
+     do{
         print("${i} ")
         sum += i
-        i++
-    }
+        i--
+    }while (i >= 0)
     println("\nSum of natural number: ${sum}")
 }
