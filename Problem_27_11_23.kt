@@ -13,11 +13,11 @@ fun main(args: Array<String>) {
 
     if(r1 > r2 && r1 > r3 && r1 > r4) {
         println(r1)
-    } else if(r2 > r3 && r2 > r4 && r2 > r1) {
+    } else if(r2 > r3 && r2 > r4) {
         println(r2)
-    }else if(r3 > r4 && r3 > r1 && r3 > r2) {
+    }else if(r3 > r4) {
         println(r3)
-    }else if(r4 > r1 && r4 > r2 && r4 > r3) {
+    }else {
         println(r4)
     }
 }
