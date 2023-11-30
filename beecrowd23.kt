@@ -12,4 +12,4 @@ fun main(args: Array<String>) {
 
     println("R1 = ${"%.5f".format(R1)}")
     println("R2 = ${"%.5f".format(R2)}")
-}.
+}
